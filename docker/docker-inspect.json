@@ -1,0 +1,229 @@
+[
+    {
+        "Id": "48ab3114cc321a13a1f7b3161264e760f5af6b0e5afea20b2ce1bce9de38515f",
+        "Created": "2016-11-05T14:36:35.836808639Z",
+        "Path": "/usr/bin/java",
+        "Args": [
+            "-Xmx1024M",
+            "-jar",
+            "/usr/lib/unifi/lib/ace.jar",
+            "start"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 6090,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2016-11-05T14:36:36.485885298Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:e03512978cf70ceb3555500d1859ae038be9c88eac7686ccc41461091905e082",
+        "ResolvConfPath": "/var/lib/docker/containers/48ab3114cc321a13a1f7b3161264e760f5af6b0e5afea20b2ce1bce9de38515f/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/48ab3114cc321a13a1f7b3161264e760f5af6b0e5afea20b2ce1bce9de38515f/hostname",
+        "HostsPath": "/var/lib/docker/containers/48ab3114cc321a13a1f7b3161264e760f5af6b0e5afea20b2ce1bce9de38515f/hosts",
+        "LogPath": "/var/lib/docker/containers/48ab3114cc321a13a1f7b3161264e760f5af6b0e5afea20b2ce1bce9de38515f/48ab3114cc321a13a1f7b3161264e760f5af6b0e5afea20b2ce1bce9de38515f-json.log",
+        "Name": "/focused_bartik",
+        "RestartCount": 0,
+        "Driver": "devicemapper",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "host",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "CapAdd": null,
+            "CapDrop": null,
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DiskQuota": 0,
+            "KernelMemory": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": -1,
+            "OomKillDisable": false,
+            "PidsLimit": 0,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0
+        },
+        "GraphDriver": {
+            "Name": "devicemapper",
+            "Data": {
+                "DeviceId": "41",
+                "DeviceName": "docker-253:1-1045607-b92b678232c3018e4cc5ecdd26a78d5e6dea4ec2b3617b0eec093c9e66c77bad",
+                "DeviceSize": "10737418240"
+            }
+        },
+        "Mounts": [
+            {
+                "Name": "6725b02e480e5f4e005bdde42af699a49971704d5b4e3da3b562c7e5dc977e24",
+                "Source": "/var/lib/docker/volumes/6725b02e480e5f4e005bdde42af699a49971704d5b4e3da3b562c7e5dc977e24/_data",
+                "Destination": "/var/run/unifi",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Name": "f98ef908363fdf01292a8acd07253f2b76eaae6730156466336ff86ca5879e0e",
+                "Source": "/var/lib/docker/volumes/f98ef908363fdf01292a8acd07253f2b76eaae6730156466336ff86ca5879e0e/_data",
+                "Destination": "/usr/lib/unifi/work",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Name": "035fd654393f3d28cec40b720048e901aa32d1531e7a5e013a9bcbbc1a7b3e42",
+                "Source": "/var/lib/docker/volumes/035fd654393f3d28cec40b720048e901aa32d1531e7a5e013a9bcbbc1a7b3e42/_data",
+                "Destination": "/var/lib/unifi",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Name": "5da3d87a46885e74bebb0fe8422a44693f97ce5dad6f92230411053e6f8fdf05",
+                "Source": "/var/lib/docker/volumes/5da3d87a46885e74bebb0fe8422a44693f97ce5dad6f92230411053e6f8fdf05/_data",
+                "Destination": "/var/log/unifi",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "docker-02.racereplay.co",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "3478/udp": {},
+                "8080/tcp": {},
+                "8081/tcp": {},
+                "8443/tcp": {},
+                "8843/tcp": {},
+                "8880/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "DEBIAN_FRONTEND=noninteractive"
+            ],
+            "Cmd": [
+                "start"
+            ],
+            "Image": "jacobalberty/unifi:latest",
+            "Volumes": {
+                "/usr/lib/unifi/work": {},
+                "/var/lib/unifi": {},
+                "/var/log/unifi": {},
+                "/var/run/unifi": {}
+            },
+            "WorkingDir": "/var/lib/unifi",
+            "Entrypoint": [
+                "/usr/bin/java",
+                "-Xmx1024M",
+                "-jar",
+                "/usr/lib/unifi/lib/ace.jar"
+            ],
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "43a6897c0c6066bc99bd66398a04b111f3a8e85510794b29983d21e49c8a71c1",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {},
+            "SandboxKey": "/var/run/docker/netns/default",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "host": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "NetworkID": "8e77558d4b23b7993ea99de4822a91f790c2c9c0382ceadd7ecd227d9326a8af",
+                    "EndpointID": "9b16097dc1897ba279ccd9c0c0a1d93b4e74448789e85bed00bf811e0b99e53a",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "IPPrefixLen": 0,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": ""
+                }
+            }
+        }
+    }
+]

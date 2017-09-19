@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+
+        unifi:
+                    image: goofball222/unifi:latest
+                                ports:
+                                                - 8080:8080
+                                                              - 8448:8443
+                                                                        volumes:
+                                                                                        - unifi_data:/usr/lib/unifi/data
+                                                                                                      - unifi_data:/usr/lib/unifi/logs
+                                                                                                                    - unifi_data:/var/log/supervisor
+                                                                                                                              networks:
+                                                                                                                                              - unifi
+                                                                                                                                                        deploy:
+                                                                                                                                                                        replicas: 1
+                                                                                                                                                                                        restart_policy:
+                                                                                                                                                                                                            condition: on-failure
+
+                                                                                                                                                                                                            volumes:
+                                                                                                                                                                                                                    unifi_data:
+                                                                                                                                                                                                                                driver: overlay2
+
+                                                                                                                                                                                                                                networks:
+                                                                                                                                                                                                                                        unifi:
+
